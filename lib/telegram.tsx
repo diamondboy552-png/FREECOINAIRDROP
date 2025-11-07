@@ -47,7 +47,7 @@ export async function sendTelegramNotification(activity: UserActivity) {
     // TELEGRAM_BOT_TOKEN: Get from @BotFather when creating a new bot
     // TELEGRAM_CHAT_ID: Your personal chat ID or group chat ID where notifications will be sent
     const botToken = "8388559885:AAHo7m4cnEnAb8a2Yx0skVS2Tevty4gdhWY"
-    const chatId = ”1668725883"
+    const chatId = 1668725883"
     
     if (!botToken || !chatId) {
       console.warn(
